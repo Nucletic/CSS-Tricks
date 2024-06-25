@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 5%;
+    display: flex;
+}
+
+.single-price {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+    background: #fff3f3;
+    height: 70vh;
+    margin-left: 40px;
+    transition: 0.9s;
+}
+
+.single-price h1 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.price {
+    height: 110px;
+    width: 110px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin: 5% auto 0 auto;
+}
+
+.price h2 {
+    font-size: 30px;
+    padding-top: 33px;
+}
+
+.deals h4 {
+    margin-top: 15px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.select {
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 18px;
+    background: #ff3364;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 13px 80px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.single-price:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.050);
+}
+
+.select:hover {
+    transform: scale(1.040);
+}
+
+.fa {
+    margin-left: 20px;
+    font-size: 16px;
+}
